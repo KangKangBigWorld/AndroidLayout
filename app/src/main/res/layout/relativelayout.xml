@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#070000"
+    >
+
+    <TextView
+        android:layout_width="137dp"
+        android:layout_height="91dp"
+        android:layout_alignParentLeft="true"
+        android:background="#F70404"
+        android:gravity="center"
+        android:text="RED"
+        android:textSize="40dp" />
+
+    <TextView
+        android:layout_width="185dp"
+        android:layout_height="87dp"
+        android:layout_alignParentRight="true"
+        android:background="#F7F304"
+        android:gravity="center"
+        android:text="YELLOW"
+        android:textSize="40dp" />
+
+    <TextView
+        android:layout_width="181dp"
+        android:layout_height="85dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#F78A04"
+        android:gravity="center"
+        android:text="ORANGE"
+        android:textSize="40dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="85dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#F364BA"
+        android:gravity="center"
+        android:text="VIOLET"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/Text1"
+        android:layout_width="132dp"
+        android:layout_height="95dp"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:background="#082FF0"
+        android:gravity="center"
+        android:text="BLUE"
+        android:textSize="40dp" />
+
+    <TextView
+        android:layout_width="132dp"
+        android:layout_height="95dp"
+        android:layout_toRightOf="@id/Text1"
+        android:layout_alignBottom="@id/Text1"
+        android:layout_marginLeft="20dp"
+        android:background="#8F08F0"
+        android:gravity="center"
+        android:text="INDIGO"
+        android:textSize="40dp" />
+
+    <TextView
+        android:layout_width="132dp"
+        android:layout_height="95dp"
+        android:layout_toLeftOf="@id/Text1"
+        android:layout_alignBottom="@id/Text1"
+        android:layout_marginRight="20dp"
+        android:background="#2BF008"
+        android:gravity="center"
+        android:text="GREEN"
+        android:textSize="40dp" />
+
+
+</RelativeLayout>
